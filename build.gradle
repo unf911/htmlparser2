@@ -1,0 +1,97 @@
+
+plugins {
+    id "java"
+    id "jacoco"
+    id "org.sonarqube" version "2.0.1"
+    id 'maven'
+}
+
+group 'com.siliconvd'
+version '1.0.8-SNAPSHOT'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+
+// UTF-8 should be standard by now. So use it!
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    mapstruct
+}
+
+ext {
+    dropwizardCompileDependencies = ['core', 'auth', 'client', 'jdbi', 'metrics', 'migrations']
+    dropwizardVersion =             '1.0.3'
+    mysqlConnectorVersion =         '5.1.38'
+    mapstructVersion =              '1.0.0.Final'
+    liquibaseVersion =              '3.5.1'
+    generatedMapperSourcesDir =     "${buildDir}/generated-src/mapstruct/main"
+}
+
+dependencies {
+    testCompile(
+            dropwizardModule('testing')
+            ,[group: 'org.mockito',            name: 'mockito-all', version: '1.9.5']
+            ,[group: 'com.github.tomakehurst', name: 'wiremock',    version: '2.1.12']
+    )
+    mapstruct(group: 'org.mapstruct', name: 'mapstruct-processor', version: mapstructVersion)
+    compile(
+            dropwizardCompileDependencies.collect { dropwizardModule(it) }
+            , [group: 'org.mapstruct',      name: 'mapstruct',                  version: mapstructVersion]
+            , [group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.8.1'],
+            [group: 'com.siliconvd', name: 'internal-payment-api', version: '1.0.1-SNAPSHOT', changing: 'true'],
+            [group: 'com.siliconvd', name: 'putwin-user-api', version: '1.0.8-SNAPSHOT', changing: 'true'],
+            [group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.21'],
+            [group: 'net.sourceforge.htmlcleaner', name: 'htmlcleaner', version: '2.18'],
+            [group: 'org.jsoup', name: 'jsoup', version: '1.10.2']
+    )
+}
+
+def dropwizardModule(name) {
+    return [group: 'io.dropwizard', name: 'dropwizard-' + name, version: dropwizardVersion]
+}
+
+test {
+    reports.junitXml.destination = file("$buildDir/test-reports")
+    jacoco {
+        append = false
+        destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
+        classDumpFile = file("$buildDir/jacoco/classpathdumps")
+    }
+    testLogging {
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+}
+
+
+sourceSets.main {
+    ext.originalJavaSrcDirs = java.srcDirs
+    java.srcDir "${generatedMapperSourcesDir}"
+}
+
+
+
+repositories {
+    maven {
+        url "http://35.163.84.124:8081/nexus/content/repositories/snapshots/"
+    }
+}
+
+jar {
+    from sourceSets.main.allSource
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: repoUrl) {
+                authentication(userName: repoLogin, password: repoPassword)
+            }
+        }
+    }
+}

@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+ <html lang="en" class="no-js"><!--<![endif]-->
+
+    <head>
+     <meta name="description" content="United States Department of Agriculture Food Composition Databases">
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Food Composition Databases Show Foods List</title>
+        <link rel="shortcut icon" href="/ndb/assets/favicon-586b9f862ff9b9e158afa1e50eb9a8e3.ico" type="image/vnd.microsoft.icon" />
+    <script src="/ndb/assets/application-ffd4a3d1e11d4a6013794650c8cde5ef.js" type="text/javascript" ></script>
+<link rel="stylesheet" href="/ndb/assets/main-c8c77cd174fa2c2b03530cff420bcc49.css"/>
+
+
+
+    <script async type="text/javascript" id="_fed_an_ua_tag" src=" https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USDA&subagency=ARS-NAL"></script>
+  <script type="text/JavaScript">
+		 var _gaq = _gaq || [];
+		 // NAL
+		  _gaq.push(['_setAccount', 'UA-28627214-1']);
+		  _gaq.push(['_setDomainName', 'nal.usda.gov']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		 //
+		// _gaq.push(['_setAccount', 'UA-3876418-1']);
+		//  _gaq.push(['_trackPageview']);
+		  // for NDB
+		  _gaq.push(['_setAccount', 'UA-36442725-1']);
+		  _gaq.push(['_trackPageview']);
+			// USDA servers
+		  _gaq.push(['_setAccount', 'UA-466807-3']);
+		  _gaq.push(['_setDomainName', 'usda.gov']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		  //
+		  _gaq.push(['a._setAccount', 'UA-27627304-18']);
+		  _gaq.push(['a._setDomainName', 'usda.gov']);
+		  _gaq.push(['a._setAllowLinker', true]);
+		  _gaq.push(['a._trackPageview']);
+			//
+		  _gaq.push(['b._setAccount', 'UA-27627304-1']);
+		  _gaq.push(['b._setDomainName', 'usda.gov']);
+		  _gaq.push(['b._setAllowLinker', true]);
+		  _gaq.push(['b._trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type =
+		'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+		'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+		  })();
+	</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="layout" content="main"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
+<link rel="stylesheet" href="/ndb/assets/select2-bootstrap.min-cbe5a07e0c636e527f7e7677bd0779d9.css"/>
+
+
+
+    </head>
+<body>
+<div class="header-wrapper clearfix">
+			<div class="header-content header-background">
+                <div class="site-info col-sm-12 col-xs-12">
+                <a href="http://www.usda.gov/" target="_blank" id="anch_0">
+                <img src="/ndb/assets/USDA-Logo-dda9ff0850b624759c06dd21914b0f67.jpg" style="float:left;padding:5px;" height="51" width="64" title="USDA Logo"/>
+                </a>
+                <span class="sitename-usda">United States Department of Agriculture
+                <br>Agricultural Research Service</span>
+                <br><span class="sitename-nal">
+
+                	USDA Food Composition Databases
+
+                 </span>
+                 </div>
+            </div>
+	</div>
+<div class="bodywrapper">
+
+ <div class="navbar navbar-default" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header" >
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+<div class="navbar-collapse collapse navbar-responsive-collapse" >
+<ul  class="nav navbar-nav" >
+  <li class="first leaf" role="presentation">
+    <a href="http://www.ars.usda.gov/main/site_main.htm?modecode=12-35-45-00" title="Go the NDL home page">NDL Home</a>
+  </li>
+
+  	<li role="presentation" class="active">
+
+  		<a href="/ndb/search/list" name="menu-advanced" title="Browse the foods list">Food Search</a>
+  	</li>
+
+  		<li role="presentation">
+
+  		<a href="/ndb/nutrients/index" name="menu-advanced" title="Create a nutrients list report">Nutrients List</a>
+  	</li>
+
+  		<li role="presentation">
+
+
+  		<a href="/ndb/beef/show" title="Use the ground beef calculator">Ground Beef Calculator</a>
+  	</li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle"  data-target="#" data-toggle="dropdown" target="_blank" role="button" aria-haspopup="true" title="Select Documentation and Help Items" aria-expanded="false">Documentation and Help<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+  	 	<li  class="first leaf" >
+    	<a href="/ndb/doc/index" title="How to use the NDB API">Food Composition Databases API</a>
+    	</li>
+
+    <li  class="leaf" >
+    	<a href="https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/sr28_doc.pdf" title="View and download release documentation" target="_help">SR28 Documentation</a>
+    </li>
+    <li>
+    	<a href="/ndb/docs/BFPDB_Doc.pdf" title="View and download branded food products documentation" target="_help">USDA Branded Food Products Documentation</a>
+    </li>
+  <li class="first leaf" >
+    	<a href="/ndb/help/index" title="Read help on how to use the website">Food Composition Databases Help</a>
+    </li>
+    </ul>
+    </li>
+     	<li>
+  		<a href="http://www.ars.usda.gov/main/docs.htm?docid=4445" title="Click to contact us">Contact Us</a>
+  	</li>
+
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+			<div class="wbox">
+	<form action="/ndb/search/search" method="post" name="quickform" id="quickform" >
+<input type="hidden" name="SYNCHRONIZER_TOKEN" value="a5bab11a-43b9-42b5-80f9-ed8fed7e0159" id="SYNCHRONIZER_TOKEN" />
+<input type="hidden" name="SYNCHRONIZER_URI" value="/ndb/search/list" id="SYNCHRONIZER_URI" />
+			<input type="hidden" name="qt" value="" id="qt" />
+
+
+            <div style="font-size:.9em;" id="helpDiv"></div>
+
+            <div class="container" style="width:125%;;padding:0px;">
+            <div class="row" >
+            <div class="col-md-2 inset-right">
+           		<nobr><label for ds style="padding-left:5px;">Select Source</label></nobr>
+	    		<select id="ds" name="ds" class="ds" title="Select a data source" >
+<option value="" selected="selected">All Data Sources ...</option>
+<option value="Branded Food Products" >Branded Food Products</option>
+<option value="Standard Reference" >Standard Reference</option>
+</select>
+	    		</div>
+            <div class="col-md-2 inset-right" >
+            	<label for qlookup style="padding-left:5px;">Enter one or more terms
+                        </label>
+            	<div class="btn-group">
+	           	<span class="value"><input type="text" class="searchbox ui-autocomplete-input" placeholder="For example: raw broccoli" value="" title="Enter search terms" name="qlookup" id="qlookup" size="180" autocomplete="off" /></span>
+
+	    		</div>
+           </div>
+           	<div class="col-md-2 inset-right">
+           		<nobr><label for fgcd style="padding-left:5px;color:#ccc" >Select Food Group</label></nobr>
+	    		<select class="s2" name="fgcd" style="color:#ccc" title="Food groups not available" disabled="disabled" id="fgcd" >
+<option value="" selected="selected">All food groups ...</option>
+<option value="American Indian/Alaska Native Foods" >American Indian/Alaska Native Foods</option>
+<option value="Baby Foods" >Baby Foods</option>
+<option value="Baked Products" >Baked Products</option>
+<option value="Beef Products" >Beef Products</option>
+<option value="Beverages" >Beverages</option>
+<option value="Branded Food Products Database" >Branded Food Products Database</option>
+<option value="Breakfast Cereals" >Breakfast Cereals</option>
+<option value="Cereal Grains and Pasta" >Cereal Grains and Pasta</option>
+<option value="Dairy and Egg Products" >Dairy and Egg Products</option>
+<option value="Fast Foods" >Fast Foods</option>
+<option value="Fats and Oils" >Fats and Oils</option>
+<option value="Finfish and Shellfish Products" >Finfish and Shellfish Products</option>
+<option value="Fruits and Fruit Juices" >Fruits and Fruit Juices</option>
+<option value="Lamb, Veal, and Game Products" >Lamb, Veal, and Game Products</option>
+<option value="Legumes and Legume Products" >Legumes and Legume Products</option>
+<option value="Meals, Entrees, and Side Dishes" >Meals, Entrees, and Side Dishes</option>
+<option value="Nut and Seed Products" >Nut and Seed Products</option>
+<option value="Pork Products" >Pork Products</option>
+<option value="Poultry Products" >Poultry Products</option>
+<option value="Restaurant Foods" >Restaurant Foods</option>
+<option value="Sausages and Luncheon Meats" >Sausages and Luncheon Meats</option>
+<option value="Snacks" >Snacks</option>
+<option value="Soups, Sauces, and Gravies" >Soups, Sauces, and Gravies</option>
+<option value="Spices and Herbs" >Spices and Herbs</option>
+<option value="Sweets" >Sweets</option>
+<option value="Vegetables and Vegetable Products" >Vegetables and Vegetable Products</option>
+</select>
+	    	</div>
+	    	<div class="col-md-2 inset-right" >
+           		<nobr><label for manu style="padding-left:5px;">Select Manufacturer</label></nobr>
+	    		<select class="manu" id="manu" name="manu"  title="Search and select food manufacturer">
+  					<option value="" selected="selected"></option>
+				</select>
+			       </div>
+
+	    	<div class="col-md-3 inset-right" style="padding-top:22px;">
+	    		<input type='submit'  value='Go' title="Submit your search" class="btn btn-primary btn-large" />
+                        <input type='button' class="btn btn-default btn-large"  title="Start a new search" id='reset' value='Reset' />
+
+	    		<a href="/ndb/help/contextHelp/search" onclick="jQuery.ajax({type:'POST', url:'/ndb/help/contextHelp/search',success:function(data,textStatus){jQuery('#helpDiv').html(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});return false;" id="search" title="Tips on how to search"><span class="glyphicon glyphicon-question-sign" style="font-size: 20px;vertical-align:middle"></span></a>
+	    	</div>
+           </div>
+                         <div class="spacer15"></div>
+     			<div class="row">
+     			<div class="col-md-3">
+     				 &nbsp;<span class="glyphicon glyphicon-search"><a href="/ndb/search/advanced?qlookup=&amp;q=&amp;qp=&amp;qa=&amp;qn=&amp;ds=&amp;ing=" title="Go to advanced search"></span>Advanced search</a>
+
+     			</div>
+     			</div>
+           </div>
+           <style type="text/css">
+     		.bigdrop.select2-container .select2-results {max-height: 300px;}
+			.bigdrop .select2-results {max-height: 300px;}
+     		</style>
+           <script>
+           $("#searchclear").click(function(){
+     			    $("#qlookup").val('');
+     			    document.quickform.submit();
+
+     			});
+
+           $(document).ready(function() {
+                $("#reset").button();
+                $('#reset').bind('click', function() {
+                    $('#qlookup,#manu,#ds,#fg').val('').trigger('change');
+                });
+          		 $("#manu").select2({
+                         placeholder:"Select a manufacturer",
+                         allowClear:true,
+              		 ajax: {
+              		    url: "/ndb/search/manufacturers",
+              		    dataType: 'json',
+              		    delay: 250,
+              		    data: function (params) {
+              		      return {
+              		        m: params.term, // search term
+              		        q: '',
+              		        fgcd: '',
+              		        page: params.page
+              		      };
+              		    },
+
+              		  processResults: function (data, params) {
+              		      // parse the results into the format expected by Select2
+              		      // since we are using custom formatting functions we do not need to
+              		      // alter the remote JSON data, except to indicate that infinite
+              		      // scrolling can be used
+              		      params.page = params.page || 1;
+
+              		      return {
+              		        results: data.root.items,
+
+              		      };
+              		    },
+              		    cache: true
+              		  },
+              		theme:"bootstrap",
+              		minimumInputLength: 3,
+                     templateResult: formatManu, // omitted for brevity, see the source of this page
+                     templateSelection: formatManuSelection, // omitted for brevity, see the source of this page
+                    /* dropdownCssClass: "bigdrop",*/ // apply css that makes the dropdown taller
+                     escapeMarkup: function (m) { return m; } // we do not want to escape markup since we are displaying html in results
+                 });
+           });
+
+           function formatManu (manu) {
+        	      if (manu.loading) return manu.text;
+        	      var markup = "<div class='select2-result-manu clearfix'>" +
+        	      "<div class='select2-result-manu__meta'>"+
+        	          "<div class='select2-result-manu__name]'>" + manu.id + "</div></div></div>";
+        	      return markup;
+        	    }
+
+        	    function formatManuSelection (manu) {
+        	      return manu.id?manu.id:"";
+        	    }
+
+     		</script>
+
+			<div  class="alert alert-info result-message">
+
+					184,022 foods found&nbsp;Click on a food name to view details
+
+				</div>
+				<div class="paginateButtons">
+				<a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183900&amp;order=asc" class="prevLink">Previous</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=0&amp;order=asc" class="step">1</a><span class="step gap">..</span><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183550&amp;order=asc" class="step">3672</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183600&amp;order=asc" class="step">3673</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183650&amp;order=asc" class="step">3674</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183700&amp;order=asc" class="step">3675</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183750&amp;order=asc" class="step">3676</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183800&amp;order=asc" class="step">3677</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183850&amp;order=asc" class="step">3678</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183900&amp;order=asc" class="step">3679</a><span class="currentStep">3680</span><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=184000&amp;order=asc" class="step">3681</a><a href="/ndb/search/list?maxsteps=6&amp;format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=184000&amp;order=asc" class="nextLink">Next</a>
+			</div>
+
+
+
+					<div class="list-left">
+						<table class="table table-bordered table-striped table-fixed-header table-hover">
+							<thead>
+								<tr style="font-size: 1.1em;">
+                                                                        <th></th>
+									<th style="width:10%;" class="asc" ><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=ndb&amp;fgcd=&amp;manu=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183950&amp;order=desc" title="Sort by NDB No">NDB No.</a></th>
+									<th style="width:60%;" id="ndl.foods.description.label" class="asc" ><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;qlookup=&amp;order=desc&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183950" title="Sort by Description">Description</a></th>
+
+                                                                                <th>Manufacturer or Food Group</th>
+
+								</tr>
+							</thead>
+							<tbody>
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/34242?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45034383
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/34242?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOTZ, FIZZZ, POWER STRINGS, CHERRY, UPC: 10070650050431
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=G.B.+AMBROSOLI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">G.B. AMBROSOLI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/34245?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45034386
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/34245?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOTZ, FIZZZ, POWER STRINGS, WATERMELON, UPC: 10070650050455
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=G.B.+AMBROSOLI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">G.B. AMBROSOLI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/34243?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45034384
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/34243?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOTZ, POWER CANDY, CHERRY, APPLE WATERMELON, UPC: 10070650005004
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=G.B.AMBROSOLI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">G.B.AMBROSOLI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/114492?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45156256
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/114492?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOTZ, POWER CANDY, CHERRY, BLUE RASPBERRY, GRAPE, APPLE, WATERMELON, ORANGE, UPC: 070650005717
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Andre+Prost+Inc.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Andre Prost Inc.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/40689?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45043116
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/40689?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOUP!, CHICKEN BROTH, UPC: 855868002013
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZOUP%21&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZOUP!</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/81726?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45113557
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/81726?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOUP, GOOD, REALLY GOOD, CHICKEN BROTH, UPC: 855868003003
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZOUP&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZOUP</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/38601?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45040437
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/38601?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOUP, GOOD, REALLY GOOD, VEGGIE BROTH, UPC: 855868002006
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZOUP&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZOUP</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/95302?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45136515
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/95302?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOUQ, CURRY CRUNCH, SWEET AND SOUR TRAIL MIX, UPC: 798304229806
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Funtastik%2C+Inc.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Funtastik, Inc.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/20052?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45012643
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/20052?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOUQ, FIERY STICKS, UPC: 798304229790
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZOUQ&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZOUQ</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/104647?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45146368
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/104647?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOUQ, JUBILEE MIX, UPC: 798304210101
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Funtastik%2C+Inc.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Funtastik, Inc.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/20054?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45012645
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/20054?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOUQ, LENTIL SNACK, UPC: 798304229820
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZOUQ&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZOUQ</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/57986?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45077776
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/57986?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOYE, BUT-R-LITE BUTTER SUBSTITUTE MADE WITH VEGETABLE OIL AND NATURAL FLAVOR, UPC: 890437000908
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZOYE&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZOYE</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/57988?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45077778
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/57988?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOYE, BUT-R-LITE BUTTER SUBSTITUTE MADE WITH VEGETABLE OIL AND NATURAL FLAVOR, UPC: 890437000762
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZOYE&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZOYE</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/57987?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45077777
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/57987?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOYE, PREMIUM VEGETABLE OIL, 100% PURE SOYBEAN OIL, UPC: 890437000007
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZOYE&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZOYE</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/98437?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45140136
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/98437?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZOYE, PREMIUM VEGETABLE OIL, UPC: 890437000786
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Zeeland+Food+Services+Inc.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Zeeland Food Services Inc.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/150068?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45192061
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/150068?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZPASTA, ARTISAN PASTA, GARLIC &amp; BASIL SPAGHETTI, UPC: 660550122104
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Plentiful+Pantry%2C+Inc.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Plentiful Pantry, Inc.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/174788?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45216920
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/174788?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												Z PASTA CO., ROASTED GARLIC LINGUINI, UPC: 660550022275
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Z+PASTA+CO.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Z PASTA CO.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/150067?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45192060
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/150067?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZPASTA, RAINBOW ANGEL HAIR, UPC: 660550122081
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Plentiful+Pantry%2C+Inc.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Plentiful Pantry, Inc.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/158682?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45200690
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/158682?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												Z PROTEIN BAR, UPC: 722252398000
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Clif+Bar+and+Company&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Clif Bar and Company</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/157653?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45199661
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/157653?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI AND YELLOW SQUASH, UPC: 087738172209
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=CALDWELL+FRESH+FOODS&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">CALDWELL FRESH FOODS</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/189042?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45231289
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/189042?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI BAKE, UPC: 704863017068
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Classic+Cooking+Inc.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Classic Cooking Inc.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/146033?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45188021
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/146033?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI BREAD, UPC: 861850000004
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Zak+Nordyke+Holistic+Fitness&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Zak Nordyke Holistic Fitness</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/157294?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45199302
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/157294?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI &amp; CARROT PANCAKES, UPC: 080868000817
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=DR.+PRAEGER%27S+SENSIBLE+FOODS&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">DR. PRAEGER&#39;S SENSIBLE FOODS</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/180049?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45222190
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/180049?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI CHIPS, UPC: 854665003148
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=BUY+FRESH+PRODUCE&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">BUY FRESH PRODUCE</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/161762?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45203805
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/161762?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI CHOCOLATE CHIP MINI MUFFIN, UPC: 861850000011
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=EVERGREEN&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">EVERGREEN</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/179278?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45221412
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/179278?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI &amp; GRAPE TOMATOES, UPC: 793573238757
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=SAFEWAY+FRESH+FOODS%2C+LLC&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">SAFEWAY FRESH FOODS, LLC</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/189674?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45231956
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/189674?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI LENTIL PASTA, UPC: 014500017444
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=BIRDS+EYE&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">BIRDS EYE</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/189675?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45231957
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/189675?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI LENTIL PASTA WITH MARINARA SAUCE, UPC: 014500017451
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=BIRDS+EYE&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">BIRDS EYE</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/134736?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45176618
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/134736?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI LOAF, UPC: 077890383360
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Wegmans+Food+Markets%2C+Inc.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Wegmans Food Markets, Inc.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/175263?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45217395
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/175263?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI PANCAKES, UPC: 041641202071
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=GOLDEN&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">GOLDEN</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/165086?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45207145
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/165086?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI POUND CAKE, UPC: 20044695
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=FRESH+%26+EASY&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">FRESH &amp; EASY</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/185576?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45227804
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/185576?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI SPIRALS, UPC: 852287006004
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=VEGGIE+NOODLE+CO.+LLC&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">VEGGIE NOODLE CO. LLC</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/160561?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45202596
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/160561?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI SQUASH MEDLEY, UPC: 782796022380
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Papa+John%27s+Salads+%26+Produce&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Papa John&#39;s Salads &amp; Produce</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/144799?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45186781
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/144799?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUCCHINI, UPC: 854419002489
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=Market+Fresh+Produce%2C+LLC&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">Market Fresh Produce, LLC</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/54016?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45067104
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/54016?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKALI, CHIMI SALSA WITH PARSLEY, MEDIUM, UPC: 852988006051
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZUKALI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZUKALI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/54020?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45067110
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/54020?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKALI, CHIPOTLE KAFE SALSA, UPC: 852988006044
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZUKALI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZUKALI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/54002?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45067078
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/54002?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKALI, FIRE ROASTED POBLANOS, UPC: 852988006013
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZUKALI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZUKALI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/70213?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45094936
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/70213?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKALI, SALSA, CILANTRO PINEAPPLE, WITH FIRE ROASTED PEPPERS AND TOMATILLOS, UPC: 852988006037
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZUKALI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZUKALI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/54014?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45067101
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/54014?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKALI, SAMBA SALSA WITH GUAVA FRUIT, UPC: 852988006068
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZUKALI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZUKALI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/70654?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45095793
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/70654?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKARI, PERU SALSA, MEDIUM, UPC: 852988006075
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZUKARI&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZUKARI</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/27583?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45024358
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/27583?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKAY LIVE FOODS, PROBIOTIC CULTURED VEGETABLE DRINK, BEET GINGER, UPC: 892995002127
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZUKAY+LIVE+FOODS%2C+LLC&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZUKAY LIVE FOODS, LLC</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/27582?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45024344
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/27582?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKAY LIVE FOODS, RAW VEGGIE KVASS VEGETABLE DRINK, BEET, UPC: 892995002110
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=ZUKAY+LIVE+FOODS%2C+LLC&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">ZUKAY LIVE FOODS, LLC</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26627?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45022753
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26627?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKO, ARTIFICIALLY FLAVORED LEMONADE DRINK MIX, LEMONADE, UPC: 830108000103
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=TRESMONTES+S.A.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">TRESMONTES S.A.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26631?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45022758
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26631?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKO, DRINK MIX, CHERRY, UPC: 830108704056
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=CORPORA+TRESMONTES+S.A.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">CORPORA TRESMONTES S.A.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26435?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45022528
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26435?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKO, DRINK MIX, ORANGE, UPC: 830108000097
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=TRESMONTES+S.A.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">TRESMONTES S.A.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26616?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45022732
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26616?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKO, DRINK MIX, PEACH, UPC: 830108000363
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=TRESMONTES+S.A.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">TRESMONTES S.A.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26626?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45022751
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26626?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKO, DRINK MIX, PINEAPPLE, UPC: 830108000134
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=TRESMONTES+S.A.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">TRESMONTES S.A.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26628?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45022755
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26628?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKO, DRINK MIX WITH VITAMIN C, GRAPE, UPC: 830108701215
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=TRESMONTES+S.A.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">TRESMONTES S.A.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="odd">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26625?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45022749
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26625?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKO, DRINK MIX WITH VITAMIN C, MANGO, UPC: 830108000158
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=TRESMONTES+S.A.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">TRESMONTES S.A.</a>
+
+										</td>
+									</tr>
+
+
+
+
+
+
+									<tr style="line-height: 1.2em;"
+										class="even">
+                                                                             <td> <span class="badge">
+
+                                                                                        BF
+
+                                                                                     </span>
+                                                                                </td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26629?fg=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" style="font-weight:normal;" title="Click to view reports for this food">
+												45022756
+											</a></td>
+										<td style="font-style:;"><a href="/ndb/foods/show/26629?fgcd=&amp;manu=&amp;lfacet=&amp;format=Abridged&amp;count=&amp;max=50&amp;offset=183950&amp;sort=fd_s&amp;order=asc&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=" title="Click to view reports for this food">
+												ZUKO, HIBISCUS DRINK MIX, JAMAICA, UPC: 830108000189
+											</a></td>
+										<td style="font-style:;">
+
+                                                                                            <a href="/ndb/search/list?fgcd=&amp;manu=TRESMONTES+S.A.&amp;lfacet=&amp;count=&amp;max=50&amp;ds=&amp;sort=fd_s&amp;offset=0&amp;format=Abridged&amp;new=1" name="search" title="Display all foods from this manufacturer">TRESMONTES S.A.</a>
+
+										</td>
+									</tr>
+
+
+
+							</tbody>
+						</table>
+						</div>
+					</div>
+
+					<div class="paginateButtons">
+						<a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183900&amp;order=asc" class="prevLink">Previous</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=0&amp;order=asc" class="step">1</a><span class="step gap">..</span><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183550&amp;order=asc" class="step">3672</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183600&amp;order=asc" class="step">3673</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183650&amp;order=asc" class="step">3674</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183700&amp;order=asc" class="step">3675</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183750&amp;order=asc" class="step">3676</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183800&amp;order=asc" class="step">3677</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183850&amp;order=asc" class="step">3678</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=183900&amp;order=asc" class="step">3679</a><span class="currentStep">3680</span><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=184000&amp;order=asc" class="step">3681</a><a href="/ndb/search/list?format=Abridged&amp;count=&amp;max=50&amp;sort=fd_s&amp;fgcd=&amp;manu=&amp;lfacet=&amp;qlookup=&amp;ds=&amp;qt=&amp;qp=&amp;qa=&amp;qn=&amp;q=&amp;ing=&amp;offset=184000&amp;order=asc" class="nextLink">Next</a>
+					</div>
+
+,
+	</form>
+	<script>
+     	 $(document).ready(function() {
+         	 $('#create_submit').button();
+     		 $("#qlookup").autocomplete({
+     		  source: function(request, response){
+     		   $.ajax({
+     		    url: "/ndb/search/autosuggest?manu=&amp;ingred=&amp;ds=&amp;fgcd=", // remote datasource
+     		    data: request,
+     		    type: 'get',
+     		    success: function(data){
+     		     response(data); // set the response
+     		    },
+     		    error: function(){ // handle server errors
+     		      $.jGrowl("Unable to retrieve Companies", {
+     		       theme: 'ui-state-error ui-corner-all'
+     		      });
+
+     		    }
+     		   });
+     		  },
+
+     		  minLength: 2, // triggered only after minimum 2 characters have been entered.
+     		  select: function(event, ui) { // event handler when user selects a company from the list.
+     		   $("#id").val(ui.item.id); //
+     		   $("#qlookup").val(ui.item.value); // populate the search field .
+     		    //document.location.href = '/ndb/foods/show/' + ui.item.id+'?manu=&fgcd='+';
+     		 		document.location.href = '/ndb/foods/show/'+ui.item.id+'?manu=&fgcd=&ds=';
+				}
+		});
+		});
+		$(function() {
+			$("#helpDiv").dialog({
+				width : 400,
+				resizable : true,
+				modal:true,
+				title : "Search Tip",
+				autoOpen : false,
+				buttons: {
+			        Close: function() {
+			            $(this).dialog('close');
+			        }
+				}
+			});
+			$("#search").click(function() {
+				$("#helpDiv").dialog("open");
+			});
+		});
+		$('#fgcd').change(function() {
+			$('#quickform').trigger('submit');
+		});
+		$('#manu').change(function() {
+			$('#quickform').trigger('submit');
+		});
+		$('#ds').change(function() {
+			$('#quickform').trigger('submit');
+		});
+	</script>
+
+ </div>
+        <footer>
+         <small>
+         <div  class="region region-footer" >
+        <section id="block-block-1"  class="block block-block footer clearfix">
+
+			USDA Food Composition Databases
+
+		<br/>
+			 <a href="http://www.nal.usda.gov">Software developed by the National Agricultural Library</a> v.3.7 2017-02-01
+		 <br/>
+		 <a href="http://www.nal.usda.gov">NAL Home</a> | <a href="http://www.usda.gov" target="_blank">USDA.gov</a> | <a href="http://www.ars.usda.gov" target="_blank">Agricultural Research Service</a> | <a href="http://www.usda.gov/wps/portal/usda/usdahome?navid=PLAIN_WRITING">Plain Language</a> | <a href="http://www.ars.usda.gov/Services/docs.htm?docid=1398" target="_blank">FOIA</a> | <a href="http://www.usda.gov/wps/portal/usda/usdahome?navtype=FT&amp;navid=ACCESSIBILITY_STATEM" target="_blank">Accessibility Statement</a> | <a href="http://www.ars.usda.gov/Main/docs.htm?docid=8040" target="_blank">Information Quality</a> | <a href="http://www.ars.usda.gov/disclaim.html#Privacy" target="_blank">Privacy Policy</a> | <a href="http://www.usda.gov/wps/portal/usda/usdahome?navtype=FT&amp;navid=NON_DISCRIMINATION" target="_blank">Non-Discrimination Statement</a> | <a href="http://www.usa.gov" target="_blank">USA.gov</a> | <a href="http://www.whitehouse.gov" target="_blank">White House</a></p>
+		</section>
+		</div>
+		</small>
+		</footer>
+
+
+    </body>
+
+</html>
+
+
